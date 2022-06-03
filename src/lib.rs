@@ -65,7 +65,7 @@ fn from_file(file_name: &str) -> PyResult<HashMap<&'static str, Option<Vec<Strin
 
 /// A Python module implemented in Rust.
 #[pymodule]
-fn ioc_extract_py(_py: Python, m: &PyModule) -> PyResult<()> {
+fn ioc_extract(_py: Python, m: &PyModule) -> PyResult<()> {
     m.add_function(wrap_pyfunction!(from_str, m)?)?;
     m.add_function(wrap_pyfunction!(from_file, m)?)?;
     Ok(())
