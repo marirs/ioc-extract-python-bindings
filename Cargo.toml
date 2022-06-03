@@ -7,7 +7,7 @@ edition = "2021"
 
 [dependencies]
 ioc_extract = "0.4.3"
-pyo3 = { version = "0.16.3", features = ["extension-module", "multiple-pymethods"] }
+pyo3 = { version = "0.16.5", features = ["abi3", "abi3-py37", "extension-module"] }
 
 [lib]
 name = "ioc_extract"
