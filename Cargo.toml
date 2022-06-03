@@ -4,3 +4,18 @@ version = "0.0.1"
 description = "IOC Extract python bindings for ioc_extract-rs"
 authors = ["Marirs <marirs@gmail.com>"]
 edition = "2021"
+
+[dependencies]
+ioc_extract = "0.4.3"
+pyo3 = { version = "0.16.3", features = ["extension-module"] }
+
+[lib]
+name = "ioc_extract"
+crate-type = ["cdylib"]
+
+[profile.release]
+codegen-units = 1
+debug-assertions = false
+debug = false
+opt-level = 3
+lto = true
