@@ -1,0 +1,6 @@
+[package]
+name = "ioc_extract"
+version = "0.0.1"
+description = "IOC Extract python bindings for ioc_extract-rs"
+authors = ["Marirs <marirs@gmail.com>"]
+edition = "2021"
