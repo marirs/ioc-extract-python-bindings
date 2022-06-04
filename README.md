@@ -1,5 +1,7 @@
 # ioc-extract-python-bindings
-IOC Extract pythong bindings for ioc_extract-rs
+IOC Extract python bindings for ioc_extract-rs.  
+
+The Rust library can be found here: [IOC Extract](https://github.com/marirs/ioc_extract-rs)
 
 ### Requirements
 
