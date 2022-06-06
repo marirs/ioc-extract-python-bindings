@@ -17,10 +17,10 @@ pip install dist/ioc_extract-0.0.1-cp37-abi3-<os>_<arch>.whl
 
 | File                                                       | OS/Architecture            |
 |------------------------------------------------------------|----------------------------|
-| dist/ioc_extract_latest-cp37-linux_aarch64.whl        | Linux / Arm architecture   |
-| dist/ioc_extract_latest-cp37-linux_x86_64.wh | Linux / Intel architecture |
-| dist/ioc_extract_latest-cp37-macosx_arm64.whl     | MacOS / Arm architecture   |
-| dist/ioc_extract_latest-cp37-macosx_x86_64.whl    | MacOS/ Intel architecture  |
+| dist/ioc_extract-0.0.1-cp37-abi3-linux_aarch64.whl         | Linux / Arm architecture   |
+| dist/ioc_extract-0.0.1-cp37-abi3-manylinux_2_28_x86_64.whl | Linux / Intel architecture |
+| dist/ioc_extract-0.0.1-cp37-abi3-macosx_11_0_arm64.whl     | MacOS / Arm architecture   |
+| dist/ioc_extract-0.0.1-cp37-abi3-macosx_10_7_x86_64.whl    | MacOS/ Intel architecture  |
 
 ---
 License: MIT
